@@ -9,6 +9,7 @@ import WastetoEnergy from '../pages/WastetoEnergy'
 import SignUp from '../pages/SignUp'
 import Login from '../pages/Login'
 import NotFound from '../pages/NotFound'
+import Contact from '../pages/Contact'
 
 function AppRoutes() {
   return (
@@ -19,6 +20,7 @@ function AppRoutes() {
             <Route path='/pickup' element={<PickUp />} />
             <Route path='/recycling' element={<Recycling />} />
             <Route path='/wastetoenergy' element={<WastetoEnergy />} />
+            <Route path='/contact' element={<Contact />} />
         </Route>
         <Route path='/signup' element={<SignUp />} />
         <Route path='/login' element={<Login />} />
