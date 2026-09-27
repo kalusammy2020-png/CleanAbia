@@ -1,8 +1,11 @@
+import UserRoles from '@/components/SignUp/UserRole'
 import React from 'react'
 
 function SignUp() {
   return (
-    <div>SignUp</div>
+    <div>
+      <UserRoles />
+    </div>
   )
 }
 
