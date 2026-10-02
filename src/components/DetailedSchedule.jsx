@@ -13,7 +13,7 @@ import {
   getNextCollection,
   getCollectionStatus,
   formatCollectionDate,
-} from "../Utils/scheduleUtils";
+} from "../Utils/ScheduleUtils";
 
 function DetailedSchedule({
   waste,

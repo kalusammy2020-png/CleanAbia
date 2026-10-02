@@ -1,4 +1,4 @@
-export const collectionData = [
+export const CollectionData = [
   {
     id: "general",
     name: "General Waste",
